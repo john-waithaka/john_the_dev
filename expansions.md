@@ -19,3 +19,8 @@ Testimonials: If you have any testimonials from clients or colleagues, including
 Downloadable Resume: Provide a link to download your resume.
 Social Media Links: Include links to your GitHub, Twitter, or any other relevant social media platforms.
 SEO Optimization: Ensure to optimize your website for search engines by using appropriate meta tags and descriptions.
+
+
+Blackbox suggestions
+- Favicon: Ensure that your favicon is set up correctly. You can replace %PUBLIC_URL%/favicon.ico with the actual path if needed.
+- Analytics: If you plan to track visitors, consider adding Google Analytics or another analytics tool in the <head> section.

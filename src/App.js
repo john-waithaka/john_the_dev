@@ -20,12 +20,14 @@ function App() {
   return (
     <div className={darkMode ? 'App dark' : 'App'}>
       <Header toggleDarkMode={toggleDarkMode} />
+      
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
 
-      <Routes>
-        <Route path="/" exact component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
-      </Routes>
+
       <Footer />
     </div>
   );
